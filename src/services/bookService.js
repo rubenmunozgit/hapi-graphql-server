@@ -1,4 +1,4 @@
-const bookDB = require('../databases/books');
+const bookDB = require('../datasource/databases/books');
 
 const findBookById = (id) => {
     return bookDB.find(book => book.id === id);

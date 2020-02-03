@@ -14,6 +14,7 @@ const typeDefs = gql`
     book(id: ID!): Book!
     authors: [Author!]
     author(id: ID!): Author!
+    weather(city: ID!): Weather!
   }
 
   # This "Book" type defines the queryable fields for every book in our data source.
@@ -26,6 +27,28 @@ const typeDefs = gql`
     id: ID
     name: String!
     books: [Book!]
+  }
+
+  type Weather {
+    current: Current!
+    forecast: Forecast!
+  }
+
+  type Current @cacheControl(maxAge: 30) {
+    temperature: Float!
+    feels_like: Float
+    description: String!
+    icon: String!
+  }
+
+  type Forecast {
+    list: [Day]
+  }
+
+  type Day {
+    date: String
+    min: Float
+    max: Float
   }
 `;
 module.exports = typeDefs;
