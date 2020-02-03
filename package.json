@@ -1,0 +1,24 @@
+{
+  "name": "hapi-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenmunozgit/hapi-graphql.git"
+  },
+  "author": "Ruben Muñoz Palomino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenmunozgit/hapi-graphql/issues"
+  },
+  "homepage": "https://github.com/rubenmunozgit/hapi-graphql#readme",
+  "dependencies": {
+    "@hapi/hapi": "18.4.0",
+    "apollo-server-hapi": "^2.9.16"
+  }
+}
