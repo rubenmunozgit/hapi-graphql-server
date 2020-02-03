@@ -1,5 +1,5 @@
-const authorDB = require('../databases/authors');
-const booksDB = require('../databases/books');
+const authorDB = require('../datasource/databases/authors');
+const booksDB = require('../datasource/databases/books');
 
 const findAuthorById = (id) => {
     return authorDB.find(author => author.id === id);
