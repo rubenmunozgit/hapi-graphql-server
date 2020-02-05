@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubenmunozgit/hapi-graphql.git"
+    "url": "git+https://github.com/rubenmunozgit/hapi-graphql-server.git"
   },
   "author": "Ruben Muñoz Palomino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rubenmunozgit/hapi-graphql/issues"
+    "url": "https://github.com/rubenmunozgit/hapi-graphql-server/issues"
   },
-  "homepage": "https://github.com/rubenmunozgit/hapi-graphql#readme",
+  "homepage": "https://github.com/rubenmunozgit/hapi-graphql-server#readme",
   "dependencies": {
     "@hapi/hapi": "18.4.0",
     "apollo-server-hapi": "^2.9.16",
