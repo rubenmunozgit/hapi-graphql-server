@@ -4,7 +4,7 @@ const typeDefs = require('../graphql/schema');
 const resolvers = require('../graphql/resolvers');
 
 const HOST = 'localhost';
-const PORT = 3000;
+const PORT = 4000;
 
 
 
