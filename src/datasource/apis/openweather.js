@@ -35,6 +35,7 @@ const getWeather = async (city) => {
         console.log('Error:', error.message);
         }
         console.log(error.config);
+        return error.message;
     }
 }
 

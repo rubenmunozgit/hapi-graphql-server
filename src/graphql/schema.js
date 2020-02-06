@@ -14,7 +14,7 @@ const typeDefs = gql`
     book(id: ID!): Book!
     authors: [Author!]
     author(id: ID!): Author!
-    weather(city: ID!): Weather!
+    weather(city: String!): Weather!
   }
 
   # This "Book" type defines the queryable fields for every book in our data source.
