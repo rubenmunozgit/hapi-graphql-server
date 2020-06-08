@@ -19,7 +19,7 @@
   "homepage": "https://github.com/rubenmunozgit/hapi-graphql-server#readme",
   "dependencies": {
     "@hapi/hapi": "18.4.0",
-    "apollo-server-hapi": "^2.9.16",
+    "apollo-server-hapi": ">=2.14.2",
     "axios": "^0.19.2",
     "dotenv": "^8.2.0"
   }
